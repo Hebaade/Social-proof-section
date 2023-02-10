@@ -83,16 +83,19 @@
   -o-border-radius: 6px;
 }
 .stars {
-  margin-left: 90px;
+  margin-left: 20px;
   margin-top: -26px;
   margin-bottom: 5px;
-  font-weight: bold;
 }
 .lol {
-  margin-left: 60px;
+  margin-left: 20px;
 }
 .lol2 {
-  margin-left: 100px;
+  margin-left: 25px;
+}
+.guru{
+  text-align: center;
+  margin-left: 80px;
 }
 .person {
   margin-top: 20px;
