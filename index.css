@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  max-width: 767px;
+  height: 1500px;
+  margin: 50px auto;
+
+}
+.star {
+  width: 40px !important;
+  height: 40px !important;
+  margin: 0%;
+  margin-top: 5px;
+  display: inline-block;
+}
+.icon {
+  margin-left: 100px;
+}
+.img {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.div6,
+.div7,
+.div8 {
+  width: 400px;
+  height: 270px;
+  margin: 15px auto;
+  font-family: sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  color: aliceblue;
+  background-color: rgb(8, 5, 58);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.div1 {
+  width: 220px;
+  margin: 5% auto;
+  margin-bottom: 10px;
+}
+.info {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 5%;
+  font-weight: bold;
+  color: rgb(38, 7, 95);
+  font-size: 30px;
+}
+.div2 {
+  width: 270px;
+  color: rgb(38, 7, 95);
+  margin: 5px auto;
+  margin-bottom: 25px;
+  opacity: 0.7;
+}
+.div3,
+.div4,
+.div5 {
+  width: 400px;
+  align-items: center;
+  height: 100px;
+  margin: 15px auto;
+  justify-content: center;
+  color: rgb(38, 7, 95);
+  font-size: 24px;
+  border-radius: 6px;
+  font-family: sans-serif;
+  background-color: rgb(211, 208, 208);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.stars {
+  margin-left: 90px;
+  margin-top: -26px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.lol {
+  margin-left: 60px;
+}
+.lol2 {
+  margin-left: 100px;
+}
+.person {
+  margin-top: 20px;
+  height: 90px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "img img  pra pra pra pra pra pra";
+}
+.img {
+  margin-top: 37px;
+  display: inline;
+  margin-left: 42px;
+  grid-area: img;
+}
+.nam {
+  grid-area: pra;
+  margin-top: 41px;
+}
+.badge 
+{
+  margin-top: 9px;
+  font-size: smaller;
+  opacity: 0.5;
+}
+.pp{
+    margin-top: 35px;
+   margin-right: 15px;
+   margin-left: 15px;
+}
+@media(min-width: 768px) {
+    .main{
+        margin: 50px;
+    }
+    .div1{
+        margin: 50px;
+    }
+    .div2{
+        margin-left: 50px;
+        margin-top: -20px;
+    }
+    .div3,
+    .div5,
+    .div4{
+      margin-left: 500px;
+    }
+    .person{
+      margin-top: -20px;
+    }
+    .div3{
+      margin-top: -200px;
+    }
+    .div4{
+      margin-left: 550px;
+    }
+    .div5{
+      margin-left: 600px;
+    }
+    .divs{
+      margin-top: 30px;
+      display: flex;
+      margin-left: 30px;
+    }
+    .div6{
+      margin-right: 25px;
+    }
+    .div7{
+      margin-top: 50px;
+      margin-right: 25px;
+    }
+    .div8{
+      margin-top: 60px;
+    }
+}
